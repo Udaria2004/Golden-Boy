@@ -24,3 +24,13 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# Ignore compiled Ren'Py files
+*.rpyc
+*.bak
+cache/
+
+# Ignore heavy game assets (so they don't clog up GitHub)
+game/audio/
+game/images/
+game/music/
